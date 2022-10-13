@@ -34,6 +34,7 @@ int main()
         default:
             printf("Invalid operator");
     }
+    // return statement
     return 0;
 }
 
