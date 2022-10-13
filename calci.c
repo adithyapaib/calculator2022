@@ -4,7 +4,7 @@
 
 
 int main()
-{
+{{
     int a,b;
     char c;
     // The user has to enter the first number
@@ -34,5 +34,5 @@ int main()
             printf("Invalid operator");
     }
     return 0;
-}
+}}
 
