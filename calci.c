@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+//This is a code for calculator
 int main()
 {
     int a,b;
