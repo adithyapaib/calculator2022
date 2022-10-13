@@ -9,6 +9,7 @@ int main()
     scanf("%d",&a);
     printf("Enter the second number: ");
     scanf("%d",&b);
+    printf("Types Of Operators Available\n+\n-\n*\n/");
     printf("Enter the operator: ");
     scanf(" %c",&c);
     switch(c)
