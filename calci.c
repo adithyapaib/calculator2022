@@ -16,6 +16,7 @@ int main()
     scanf("%d",&b);
     printf("Enter the operator: ");
     scanf(" %c",&c);
+    // This is a switch statement 
     switch(c)
     {
         case '+':
