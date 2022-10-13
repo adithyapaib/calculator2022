@@ -9,6 +9,7 @@ int main()
     char c;
     // The user has to enter the first number
     printf("Enter the first number: ");
+    // scan the input 
     scanf("%d",&a);
     // The user has to enter the second number 
     printf("Enter the second number: ");
