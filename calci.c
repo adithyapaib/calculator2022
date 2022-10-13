@@ -1,12 +1,16 @@
 #include <stdio.h>
 
 
+
+
 int main()
 {
     int a,b;
     char c;
+    // The user has to enter the first number
     printf("Enter the first number: ");
     scanf("%d",&a);
+    // The user has to enter the second number 
     printf("Enter the second number: ");
     scanf("%d",&b);
     printf("Enter the operator: ");
