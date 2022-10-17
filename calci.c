@@ -4,7 +4,8 @@
 
 
 int main()
-{{
+{
+    {
     int a,b;
     char c;
     // The user has to enter the first number
@@ -14,6 +15,7 @@ int main()
     // The user has to enter the second number 
     printf("Enter the second number: ");
     scanf("%d",&b);
+    //Enter the operation type
     printf("Enter the operator: ");
     scanf(" %c",&c);
     switch(c)
@@ -34,5 +36,6 @@ int main()
             printf("Invalid operator");
     }
     return 0;
-}}
+}
+}
 
