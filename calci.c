@@ -21,16 +21,19 @@ int main()
     switch(c)
     {
         case '+':
-            printf("The sum is %d",a+b);
+            printf("The sum is %d",(a+b));
             break;
         case '-':
-            printf("The difference is %d",a-b);
+            printf("The difference is %d",(a-b));
             break;
         case '*':
-            printf("The product is %d",a*b);
+            printf("The product is %d",(a*b));
             break;
         case '/':
-            printf("The quotient is %d",a/b);
+            printf("The quotient is %d",(a/b));
+            break;
+        case '%':
+            printf("The quotient is %d",(a%b));
             break;
         default:
             printf("Invalid operator");
