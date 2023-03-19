@@ -18,6 +18,7 @@ int main()
     //Enter the operation type
     printf("Enter the operator: ");
     scanf(" %c",&c);
+    // This is a switch statement 
     switch(c)
     {
         case '+':
@@ -38,7 +39,9 @@ int main()
         default:
             printf("Invalid operator");
     }
+    // return statement
     return 0;
+    // Comment
 }
 }
 
