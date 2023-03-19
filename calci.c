@@ -18,6 +18,7 @@ int main()
     //Enter the operation type
     printf("Enter the operator: ");
     scanf(" %c",&c);
+    // Switch statement
     switch(c)
     {
         case '+':
